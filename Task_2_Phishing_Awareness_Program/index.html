@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>CyberAware</h2>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#phishing">Learn</a>
+            <a href="#tips">Safety Tips</a>
+            <a href="#quiz">Quiz</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="tag">CYBER SECURITY AWARENESS</p>
+        <h1>Stay Safe From <span>Phishing Attacks</span></h1>
+        <p>Learn how to identify fake emails, suspicious links
+        and fraudulent websites. Protect your digital identity.</p>
+        <a href="#phishing" class="btn">Start Learning</a>
+    </div>
+</section>
+
+<section class="section" id="phishing">
+    <h2>What is Phishing?</h2>
+    <p class="intro">
+        Phishing is a cyberattack in which criminals pretend to be
+        trusted people or organizations to steal sensitive information
+        such as passwords, bank details and personal data.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Email Phishing</h3>
+            <p>Fake emails that try to steal personal information.</p>
+        </div>
+        <div class="card">
+            <h3>Smishing</h3>
+            <p>Fraudulent SMS messages containing suspicious links.</p>
+        </div>
+        <div class="card">
+            <h3>Vishing</h3>
+            <p>Phone calls used to trick people into sharing secrets.</p>
+        </div>
+        <div class="card">
+            <h3>Spear Phishing</h3>
+            <p>Targeted phishing messages designed for specific people.</p>
+        </div>
+    </div>
+</section>
+
+<section class="warning-section">
+    <h2>How to Identify a Phishing Email</h2>
+    <div class="email-box">
+        <p><strong>Example: Suspicious Email</strong></p>
+        <p>From: support@unknown-example.com</p>
+        <p>Subject: URGENT! Your account will be blocked!</p>
+        <p>Hello User,</p>
+        <p>Your account will be suspended today.
+        Click the link below immediately to verify your password.</p>
+        <button class="danger-btn" onclick="showWarning()">
+            Click here to verify
+        </button>
+        <p id="warning-message"></p>
+        <p class="note">This is a simulated example for awareness.
+        Do not enter any real credentials.</p>
+    </div>
+</section>
+
+<section class="section" id="tips">
+    <h2>Safety Tips</h2>
+    <div class="tips">
+        <p>✓ Never share your password or OTP.</p>
+        <p>✓ Check the sender's email address carefully.</p>
+        <p>✓ Avoid clicking unknown links.</p>
+        <p>✓ Use multi-factor authentication.</p>
+        <p>✓ Keep your software updated.</p>
+        <p>✓ Verify suspicious requests through official channels.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Example Case Study</h2>
+    <div class="case-study">
+        <h3>The Fake Bank Alert</h3>
+        <p>A person receives a message claiming that their bank
+        account will be blocked unless they verify their details.
+        The message contains a link to a fake website.</p>
+        <p><strong>Lesson:</strong> Never trust urgent messages
+        asking for passwords, OTPs or banking information.
+        Contact your bank through its official website or number.</p>
+    </div>
+</section>
+
+<section class="section quiz-section" id="quiz">
+    <h2>Test Your Knowledge</h2>
+    <p>Answer these questions to check your cybersecurity awareness.</p>
+    <div id="quiz-container"></div>
+    <button class="btn" onclick="checkAnswers()">Submit Quiz</button>
+    <h3 id="result"></h3>
+</section>
+
+<footer>
+    <p>© 2026 CyberAware | Phishing Awareness Program</p>
+    <p>Stay Alert. Stay Safe. Stay Secure.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
