@@ -1,0 +1,32 @@
+SECURE CODE ASSESSMENT REPORT
+
+Project Name: User Login Application
+Programming Language: Python
+
+1. Project Overview:
+This project is a simple login application
+that checks the username and password.
+
+2. Security Vulnerabilities Identified:
+
+- Username and password are hardcoded.
+- Password is stored in plain text.
+- The password is weak.
+- There is no limit on login attempts.
+
+3. Security Risks:
+
+- Attackers may discover the password.
+- Unauthorized users may access the application.
+- Repeated password guessing is possible.
+
+4. Recommended Security Improvements:
+
+- Use password hashing.
+- Avoid hardcoding passwords.
+- Implement login attempt limits.
+- Use secure authentication methods.
+
+5. Conclusion:
+The application works correctly, but it needs
+security improvements to protect user accounts.

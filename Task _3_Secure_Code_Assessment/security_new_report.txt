@@ -1,0 +1,54 @@
+SECURE CODE ASSESSMENT REPORT
+
+Project Name:
+Secure Code Assessment Using Python
+
+1. Introduction
+
+The objective of this project is to identify
+security vulnerabilities in a Python login
+application and improve its security.
+
+2. Application Description
+
+A simple login application was developed
+using Python. It allows users to log in
+using a username and password.
+
+3. Vulnerabilities Identified
+
+1. Hardcoded username and password.
+2. Weak password selection.
+3. Password displayed during input.
+4. No login attempt limitation.
+5. No secure password storage.
+
+4. Security Improvements
+
+1. Removed hardcoded credentials.
+2. Used environment variables.
+3. Used getpass for hidden password input.
+4. Used secure credential comparison.
+5. Added configuration validation.
+
+5. Testing
+
+Test 1: Correct username and password.
+Expected Result: Login Successful.
+
+Test 2: Incorrect password.
+Expected Result: Invalid username or password.
+
+Test 3: Missing application configuration.
+Expected Result: Configuration error message.
+
+6. Conclusion
+
+The security assessment identified common
+security weaknesses in the original login
+application. The application was improved
+using secure coding practices.
+
+This project helped demonstrate the
+importance of identifying vulnerabilities
+and developing more secure Python programs.
